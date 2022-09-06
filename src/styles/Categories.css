@@ -1,0 +1,119 @@
+.categoris{
+   
+    height: 90vh;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+.categoris h1{
+    font-weight: 700;
+    color: #000;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+.categoris h1 span{ 
+    font-size: 2rem;
+   font-weight: 200;
+}
+.categoris-items{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+.categoris-items .item1{
+    background-color: #F94892;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.categoris-items .item1 img{
+    width: 120px;
+    border-radius: 5px;
+
+}
+.Main-item1{
+    
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Main-item1 p{
+    
+    color: gray;
+    margin-top: 2px;
+}
+.categories2{
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px 0;
+ margin-bottom: 20px;
+   
+}
+.categories2-item1{
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0) ;
+    background-color: burlywood;
+    margin-left: 20px;
+    display: flex;  justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px 0px 20px;
+    width: 380px;
+   
+}
+.categories2-item2{
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0) ;
+    background-color: orange;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px 0px 20px;
+    width: 380px;
+}
+.categories2-item3{
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0) ;
+    background-color:rgba(0, 128, 43, 0.822) ;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px 0px 20px;
+     width: 380px;
+    
+
+}
+.categories2-h2{
+    color: #fff;
+}
+.categories2-p{
+    color: #fff;
+}
+.categories2-btn{
+    padding: 10px 20px;
+    font-weight: 700;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.categories2-item1 img{
+    width: 230px;
+}
+.categories2-item2 img{
+   width: 230px;
+   
+}
+.categories2-item3 img{
+    width: 230px;
+}

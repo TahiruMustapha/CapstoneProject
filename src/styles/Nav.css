@@ -1,0 +1,125 @@
+.first-Nav{
+    
+    background-color:#F94892;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-Nav p{
+    color: #fff;
+    margin-left: 100px;
+
+}
+.first-Nav div {
+    margin-right: 40px;
+}
+.first-Nav div img{
+    width: 20px;
+}
+.first-Nav div a{
+    color: black;
+    text-decoration: none;
+}
+.second-Nav{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.407);
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+    
+    padding-bottom: 30px;
+}
+.Nav-shopie img{
+    width:50px;
+}
+.second-Nav img{
+    width: 30px;
+}
+.nav-styled-shopie{
+    color: #000;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: cursive;
+}
+.Nav-search input{
+    width: 800px;
+    padding: 25px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    box-shadow: 0 1px 5px rgba(104,104,104,0.8) ;
+    background-color: rgba(128, 128, 128, 0.342);
+}
+.Nav-search .search{
+    position: relative;
+    right: 60px;
+    top: 10px;
+}
+.whish-list{
+    border-right: 1px solid rgba(128, 128, 128, 0.407);
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whish-list span p{
+    color: rgba(0, 0, 0, 0.657);
+}
+.whish-list span p span{
+    color: #000;
+    font-weight: 600;
+}
+.nav-cart span p{
+    color: rgba(0, 0, 0, 0.657);
+}
+.nav-cart span p span{
+    color: #000;
+    font-weight: 600;
+}
+.nav-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third-nav ul{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.third-nav ul select{
+    padding: 10px;
+    padding-right: 20px;
+    width: 280px;
+    outline: none;
+    border: none;
+
+}
+.third-nav ul select:focus{
+    background-color: #F94892;
+}
+.third-nav ul select option{
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 550;
+    margin-top: 6px;
+}
+.third-nav ul select option:hover{
+    background:none;
+}
+.third-nav ul select option li{
+    list-style: square;
+}
+.third-nav ul li{
+    margin-left: 30px;
+    list-style: none;
+}
+.third-nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 750;
+}
+.third-nav ul li a:hover{
+    color: #F94892;
+}

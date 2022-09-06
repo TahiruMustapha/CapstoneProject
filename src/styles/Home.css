@@ -1,0 +1,41 @@
+.home{
+    height: 100vh;
+    background: url(../images/img9.jpeg);
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home h1{
+   margin: 0; 
+    color: #F94892;
+    text-shadow: 0 1px 5px #000;
+    font-size: 6rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+}
+.home  p {
+    
+     color: #fff;
+     font-weight: 500;
+}
+.home h3{
+    
+    color: #fff;
+    font-size: 1.5rem;
+}
+.home button{
+    background-color: #F94892;
+    padding: 12px 10px;
+    width: 200px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.home button:hover{
+    background-color:#F94892 ;
+}
