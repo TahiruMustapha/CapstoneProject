@@ -1,10 +1,11 @@
 
 .today-deals h1{
+    margin-top: 50px;
     border-left: 4px solid #F94892;
     padding-left: 10px;
     height: 40px;
    font-size: 2rem;
-   margin-left: 180px;
+   margin-left: 90px;
    
    width: 400px;
    font-weight: 700;
@@ -14,10 +15,11 @@
    font-weight: 200;
    
 }
-
-.hhh {
-    display: inline;
-}
+.today-deals hr{
+    width: 88%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+ }
 .deals-header{
     font-weight: 700;
 
@@ -149,8 +151,10 @@
 }
 .products-explore{
     width: 550px;
-    background-color: #F94892;
-    padding: 10px;
+    background-image:url(../images/img18.jpg); 
+    background-position: center;
+    background-size: cover;
+      padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -180,10 +184,10 @@
     padding: 10px;
     width: 80%;
 }
-.left-table{
+/* .left-table{
   
     
-}
+} */
 .right-table{
    /* margin-left: 30px; */
     /* padding-right: 40px; */
@@ -216,5 +220,31 @@
     width: 80px;
 }
 .deals-background{
-    
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-image: url(../images/img15.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
+    height: 150px;
+}
+.deals-background div{
+    background-color: orange;
+    color: white;
+    width: 340px;
+    height: 150px;
+    margin: 0 auto;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }

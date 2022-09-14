@@ -6,16 +6,16 @@
     height: 40px;
    font-size: 2rem;
    margin-left: 180px;
-   
    width: 400px;
    font-weight: 700;
+   margin-left: 90px;
 }
 .trending h1 span{
    font-size: 2rem;
    font-weight: 200;
    
 }.trending hr{
-    width: 78%;
+    width: 88%;
     margin: 0 auto;
     margin-bottom: 30px;
 }

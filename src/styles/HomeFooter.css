@@ -1,0 +1,76 @@
+
+.homeFooter{
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #090b32;
+    
+}
+.footer-header{
+ 
+    color: #fff;
+}
+.contact{
+    text-align: left;  
+}
+.contact ul{
+    text-align: left;
+    width: 90px;
+    padding-left: 0px;
+}
+.contact ul li{
+    color: gray;
+    list-style: none;
+    line-height: 25px;
+    margin-left: 2px;
+}
+.information{
+    text-align: left; 
+     
+}
+.information ul{
+    text-align: left;
+    width: 200px;
+    padding-left: 0px;
+}
+.information ul li{
+    color: gray;
+   list-style: none;
+    line-height: 25px;
+    
+}
+.support p{
+    line-height: 25px;
+    color: gray;
+}
+.services{
+    text-align: left; 
+     
+}
+.services ul{
+    text-align: left;
+    width: 200px;
+    padding-left: 0px;
+}
+.services ul li{
+    color: gray;
+   list-style: none;
+    line-height: 25px;
+    
+}
+.Quick-links{
+    text-align: left; 
+     
+}
+.Quick-links ul{
+    text-align: left;
+    width: 200px;
+    padding-left: 0px;
+}
+.Quick-links ul li{
+    color: gray;
+   list-style: none;
+    line-height: 25px;
+    
+}

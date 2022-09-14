@@ -12,6 +12,7 @@ const Deals = () => {
   return (
     <div className='today-deals'>
         <h1>Today  <span>Deals</span></h1>
+        <hr/>
         <div className='Main-deals-box'>
             <div className="today-deals1">
                  <div>
@@ -123,7 +124,7 @@ const Deals = () => {
             </div>
          </div>
          <div className="deals-background">
-            <div>
+            <div >
             <h3>Herbs and Species</h3>
               <p>Fresh , Flovourful & Aromatic</p>
             </div>

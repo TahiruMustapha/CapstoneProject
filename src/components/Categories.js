@@ -5,10 +5,12 @@ import img4 from '../images/img4.jpg'
 import img5 from '../images/img5.jpg'
 import img6 from '../images/img6.jpg'
 import img7 from '../images/img7.jpg'
+//import { Link } from 'react-router-dom';
 // import img8 from '../images/img8.jpeg'
 import img9 from '../images/img9.jpeg'
 import img11 from '../images/img11.jpeg'
 import '../styles/Categories.css'
+import SingleProductPage from './SingleProductPage'
 const Categories = () => {
   return (
     <div className="categoris">
@@ -60,7 +62,7 @@ const Categories = () => {
                    <div>
                        <h2 className='categories2-h2'>Fresh <br/> Vegetables</h2>
                       <p className='categories2-p'>-15% off</p>
-                      <button className='categories2-btn'>Shop Now</button>
+                      <button className='categories2-btn' onClick={SingleProductPage}>Shop Now</button>
                     </div>
                  <img src= {img7} alt = "bag" />
                 </div>      
@@ -68,7 +70,7 @@ const Categories = () => {
               <div>
                        <h2 className='categories2-h2'>Fresh <br/> Vegetables</h2>
                       <p className='categories2-p'>-15% off</p>
-                      <button className='categories2-btn'>Shop Now</button>
+                      <button className='categories2-btn' onClick={SingleProductPage}>Shop Now</button>
                     </div>
                  <img src= {img11} alt = "bag" />
                 </div>      
@@ -76,10 +78,10 @@ const Categories = () => {
               <div>
                        <h2 className='categories2-h2'>Fresh <br/> Vegetables</h2>
                       <p className='categories2-p'>-15% off</p>
-                      <button className='categories2-btn'>Shop Now</button>
+                      <button className='categories2-btn' onClick={SingleProductPage}>Shop Now</button>
                     </div>
                  <img src= {img9} alt = "bag" />
-                 </div>      
+                 </div>    
           </div>
         </div>
     </div>

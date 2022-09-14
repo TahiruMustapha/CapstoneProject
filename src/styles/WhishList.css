@@ -1,0 +1,43 @@
+.whish-list nav{
+    background-color: rgba(128, 128, 128, 0.219);
+    font-size: 1.2rem;
+    padding: 3px 10px;
+    width: 100%;
+}
+.item1{
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item1:hover{
+    background-color: rgba(128, 128, 128, 0.132);
+}
+.item1 img{
+    width: 150px;
+}
+.item1 div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cancle{
+    font-weight: 700;
+    margin-right: 20px;
+}
+.description-side{
+    margin-left: 10px;
+}
+.description-side p{
+    color: gray;
+}
+.left-side-item p:nth-child(2){
+    font-weight: 700;
+    border: 1px solid gray;
+    background: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

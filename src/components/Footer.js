@@ -1,9 +1,16 @@
 import React from 'react'
 import '../styles/Footer.css'
 import redstar from '../images/redstar.png'
-import facebook from '../images/facebook.svg'
-import instagram from '../images/instagram.svg'
-import twitter from '../images/twitter.svg'
+import { FaCartPlus } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaCreditCard } from "react-icons/fa";
+import logo from '../images/logo.png'
+
+
 
 
 const Footer = () => {
@@ -11,20 +18,20 @@ const Footer = () => {
     <div className='Main-footer'>
       <div className='footer'>
       <div className = "shopie">
-       <img src= {redstar} alt = "bag" /> <span className='styled-shopie'>Shopie</span>
+       <FaCartPlus style={{fontSize:"40px",color:"white"}} /> <span className='styled-shopie'><img src={logo} alt="logo" /></span>
        <p>All in one WooCommerce Theme is a specific, <br/>
         clean, minimal and ultimate theme.</p> 
-        <img src= {redstar} alt = "bag" /> <span className='numbers'>(1800) 88-66-991</span>
+        <FaPhone style={{fontSize:"20px",color:"red"}}/> <span className='numbers'>(1800) 88-66-991</span>
         <p>947 Clear Point, Western Sahara, Los Angelis <br/> info@example.com</p>
       </div>
       <div className = "products">
          
          <ul>
          <h2>PRODUCTS</h2>
-            <li><a href='cameras'>Cameras</a></li>
-            <li><a href='cameras'>Video Cameras</a></li>
-            <li><a href='cameras'>Lenses</a></li>
-            <li><a href='cameras'>Ink, Toner & Paper</a></li>
+            <a href='cameras'>Cameras</a> <br/>
+            <a href='cameras'>Video Cameras</a> <br/>
+            <a href='cameras'>Lenses</a> <br/>
+            <a href='cameras'>Ink, Toner & Paper</a> 
          </ul>
       </div>
       <div className = "services">
@@ -40,17 +47,20 @@ const Footer = () => {
       <div className = "accept-payment">
         <h2>ACCEPT PAYMENTS</h2>
         <div className='payment-images'>
-        <img src= {redstar} alt = "bag" />
-        <img src= {redstar} alt = "bag" />
-        <img src= {redstar} alt = "bag" />
-        <img src= {redstar} alt = "bag" />
-        <img src= {redstar} alt = "bag" />
+        <FaCreditCard style={{marginRight:"10px", color:"red" ,fontSize:"25px"}}/>
+        <FaCreditCard style={{marginRight:"10px", color:"orange" ,fontSize:"25px"}}/>
+        <FaCreditCard style={{marginRight:"10px", color:"blue" ,fontSize:"25px"}}/>
+        <FaCreditCard style={{marginRight:"10px", color:"aqua" ,fontSize:"25px"}}/>
+        <FaCreditCard style={{color:"red" ,fontSize:"25px"}}/>
+       
         </div>
         <h2>FOLLOW US</h2>
         <div className='payment-social-links'>
-        <img src={facebook} alt = "facebook"  /> 
-        <img src={instagram} alt = "instagram"  /> 
-        <img src={twitter} alt = "twitter"  /> 
+        <FaFacebook style={{marginRight:"10px", color:"red" ,fontSize:"25px"}}/> 
+        <FaTwitter style={{marginRight:"10px", color:"red" ,fontSize:"25px"}}/>
+        <FaYoutube style={{marginRight:"10px", color:"red" ,fontSize:"25px"}}/>
+        <FaInstagram style={{marginRight:"10px", color:"red" ,fontSize:"25px"}}/>   
+        
         </div>
 
       </div>
