@@ -41,3 +41,29 @@
     padding: 5px 10px;
     border-radius: 5px;
 }
+.share{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.share div{
+    margin-right: 150px;
+}
+.share div input{
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    padding: 15px 20px;
+    outline: none;
+    color: gray;
+}
+.share p:nth-child(1){
+    margin-left: 100px;
+}
+.share div button{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    outline: none;
+    margin-bottom: 5px;
+}

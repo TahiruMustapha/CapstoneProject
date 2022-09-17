@@ -21,7 +21,7 @@ import img22 from '../images/img22.jpeg'
 import img23 from '../images/img23.jpeg'
 //import { FaGreaterThan } from "react-icons/fa";
 //import Footer from '../components/Footer';
-import img19 from '../images/img19.jpg'
+import img19 from '../images/img19.png'
 const SingleProductPage = () => {
   return (
   

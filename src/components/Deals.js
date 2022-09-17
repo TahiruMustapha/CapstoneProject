@@ -5,7 +5,7 @@ import img3 from '../images/img3.jpg'
 import img4 from '../images/img4.jpg'
 import img5 from '../images/img5.jpg'
 import img6 from '../images/img6.jpg'
-import img7 from '../images/img7.jpg'
+import img7 from '../images/img7.png'
 import img12 from '../images/img12.jpeg'
 import img13 from '../images/img13.jpeg'
 const Deals = () => {
@@ -56,15 +56,15 @@ const Deals = () => {
              
               <div className='categories2-item-1'> 
                    <div>
-                       <h2 className='categories2-h2'>Fresh <br/> Vegetables</h2>
+                       {/* <h2 className='categories2-h2'>Fresh <br/> Vegetables</h2> */}
                     </div>
-                 <img src= {img7} alt = "bag" />
+                 {/* <img src= {img7} alt = "bag" /> */}
                 </div>  
               <div className='categories2-item-2'> 
                    <div>
-                       <h2 className='categories2-h2'>Fresh <br/> Vegetables</h2>
+                       {/* <h2 className='categories2-h2'>Fresh <br/> Vegetables</h2> */}
                     </div>
-                 <img src= {img6} alt = "bag" />
+                 {/* <img src= {img6} alt = "bag" /> */}
                 </div>  
          </div>
          <div className='products'>

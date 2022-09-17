@@ -1,13 +1,15 @@
 import React from 'react'
 import img2 from '../images/img2.jpg'
-import img3 from '../images/img3.jpg'
+//import img3 from '../images/img3.jpg'
 import img4 from '../images/img4.jpg'
 import img5 from '../images/img5.jpg'
 import img6 from '../images/img6.jpg'
-import img7 from '../images/img7.jpg'
+//import img20 from '../images/img20.jpeg'
+import img7 from '../images/img7.png'
 //import { Link } from 'react-router-dom';
 // import img8 from '../images/img8.jpeg'
 import img9 from '../images/img9.jpeg'
+
 import img11 from '../images/img11.jpeg'
 import '../styles/Categories.css'
 import SingleProductPage from './SingleProductPage'
@@ -26,7 +28,7 @@ const Categories = () => {
            </div>
            <div className='Main-item1'>
                 <div className="item1">
-                  <img src= {img3} alt = "bag" />
+                  <img src= {img6} alt = "bag" />
                 </div>
                 <h3>Morrow</h3>
                 <p>17 Products</p>

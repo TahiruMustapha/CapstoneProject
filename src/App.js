@@ -13,6 +13,9 @@ import HomeNav from './components/HomeNav'
 import NotFound from './components/NotFound';
 import SignIn from './components/SignIn';
 import WhishList from './components/WhishList';
+import Cart from './components/Cart';
+import Checkout from './components/Checkout';
+import OrderRecieved from './components/OrderRecieved';
 // import Shop from '../Components2/Shop';
 //import Sections from './components/Sections';
 //import Nav from './components/Nav';
@@ -32,8 +35,11 @@ function App() {
     <Route  path='/blog' exact element = { <Blog/> } /> 
     <Route  path='/contact' exact element = { <Contact/> } />
     <Route  path='*' exact element = { <NotFound/> } />
-    <Route  path='sign-in' exact element = { <SignIn/> } />
-    <Route  path='whish-list' exact element = { <WhishList/> } />
+    <Route  path='/sign-in' exact element = { <SignIn/> } />
+    <Route  path='/whish-list' exact element = { <WhishList/> } />
+    <Route  path='/cart' exact element = { <Cart/> } />
+    <Route  path='cart/checkout'  element = { <Checkout/> } />
+    <Route  path='cart/checkout/Order-recieved'  element = { <OrderRecieved/> } />
     
 
    </Routes>

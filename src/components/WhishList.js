@@ -4,6 +4,7 @@ import img20 from '../images/img20.jpeg'
 import img21 from '../images/img21.jpeg'
 import img22 from '../images/img22.jpeg'
 import img23 from '../images/img23.jpeg'
+import Footer from './Footer'
 const WhishList = () => {
   return (
     <div className='mainwhish-list'>
@@ -11,7 +12,7 @@ const WhishList = () => {
            <nav>
                <p>Home Page | WhishList</p>
            </nav>
-      </div>
+          </div>
           <div className='item1'>
             <div>
             <div className='img-side'>
@@ -91,7 +92,14 @@ const WhishList = () => {
               </div>
               
          </div>
-        
+        <div className='share'>
+            <p>Share on:Twitter FaceBook Pinterst and Mail</p>
+            <div>
+                <p>Whishlist Link: <input type='text' placeholder = 'https://alphaprojectwork.cse'/><button>Copy</button></p>
+            </div>
+
+        </div>
+        <Footer/>
     </div>
   )
 }
