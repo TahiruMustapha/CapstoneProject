@@ -1,0 +1,167 @@
+
+.blog nav{
+    background-color: rgba(128, 128, 128, 0.219);
+    font-size: 1.2rem;
+    padding: 3px 10px;
+    width: 100%;
+}
+.blog nav p{
+    margin-left: 30px;
+}
+.main-page1{
+    
+   display: flex;
+   align-items: center;
+ 
+
+}
+/* .main-page1 div{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ 
+} */
+.blog-div{
+    
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.blog-item{
+    margin-top: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    height: 230px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+.blog-item img{
+     width: 200px;
+      
+}
+.main-page1{
+    
+    height: 850px;
+    margin-left: 80px;
+}
+.main-page{
+    display: flex;
+}
+.main-page2{
+    
+    margin-left: 40px;
+    width: 600px;
+    padding: 20px;
+}
+.stock{
+    border: 1px solid gray;
+    width: 100px;
+    padding: 2px 5px;
+    background-color: rgba(0, 128, 0, 0.164);
+}
+
+
+.star-section{
+    display: flex;
+    align-items: center;
+}
+.bike-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.stock-price{
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: red;
+}
+.price-text{
+    color: gray;
+}
+.color{
+    font-weight: 600;
+}
+.colors{
+   margin-bottom: 20px;
+    display: flex;
+   align-items: center;
+   
+    
+   
+}
+.colors div{
+    width: 40px;
+    margin-left: 10px;
+    height: 40px;
+  
+}
+.colors div:nth-child(1){
+    background-color: blue;
+}
+.colors div:nth-child(2){
+    background-color: red;
+}
+.colors div:nth-child(3){
+    background-color: black;
+}
+.colors div:nth-child(4){
+    background-color: pink;
+}
+.more-products p{
+   font-weight: 700;
+   font-size: 1.1rem;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.212);
+   padding-bottom: 30px;
+   width: 400px;
+   
+}
+.related-products-section{
+  
+  padding: 20px;
+ 
+    /* padding: 10px; */
+    text-align: center;
+}
+.related-products-section h2{
+    text-align: center;
+}
+.product-content{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+/* justify-content: space-around; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /* margin-left: 30px; */
+
+}
+
+.related-products-item{
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    flex-direction: column;
+
+  
+}
+
+.related-products-items img{
+    width: 80%;
+    height: 200px;
+    
+    margin-top: 20px;
+}
+.price{
+    color: #090b32;
+    font-weight: 700;
+}
+.price-incredible{
+    font-weight: 600;
+}
+.price-product{
+    color: gray;
+}

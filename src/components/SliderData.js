@@ -34,4 +34,9 @@ export   const SliderData = [
     heading:"Professional Stylist",
     desc:"Making our clients smile is something we are eager about",  
 },
+{
+    image:"/SliderImages/slider16.jpg",
+    heading:"Professional Stylist",
+    desc:"Making our clients smile is something we are eager about",  
+},
   ]

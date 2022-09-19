@@ -86,6 +86,12 @@
     justify-content: center;
     align-items: center;
 }
+.third-nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .third-nav ul{
   display: flex;
   justify-content: flex-start;
@@ -100,15 +106,22 @@
     border: none;
 
 }
+.third-nav ul select{
+    
+    font-size: 1rem;
+    font-weight: 600;
+}
 .third-nav ul select:focus{
     background-color: #F94892;
 }
 .third-nav ul select option{
+    height: 500px;
     background-color: #fff;
-    color: #000;
     font-size: 1rem;
     font-weight: 550;
-    margin-top: 6px;
+    color: black;
+    
+  
 }
 .third-nav ul select option:hover{
     background:none;
@@ -128,3 +141,59 @@
 .third-nav ul li a:hover{
     color: #F94892;
 }
+/* .departments-links{
+    height: 10vh;
+} */
+/* .drop-down-nav{
+    display: flex;
+    align-items: center;
+}
+.all-department-btn{
+    border: none;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #090b32;
+    color: black;
+    font-weight: 600;
+    width: 20rem;
+    margin-left: 40px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    
+} */
+/* .all-department-btn:hover{
+    background-color: #090b32;
+    color: #fff;
+} */
+/* .submenuItem{
+ list-style: none;
+ 
+ color: #fff;
+ font-size: 1.1rem;
+ 
+} */
+/* .departments-links div{
+    margin-top: 10px;
+    
+    width: 320px;
+} */
+/* .departments-links div li{
+   list-style: none;
+   background-color: #090b32;
+   cursor: pointer;
+  
+   margin-top: -20px;
+} */
+/* .departments-links div li:hover{
+    background-color: #090b3288;
+}
+.departments-links.clicked{
+    display: none;
+} */
+ /* .departments-links {
+   
+    height: 100%;
+  
+    
+}  */

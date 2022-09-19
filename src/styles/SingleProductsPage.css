@@ -99,6 +99,10 @@
     margin-right: 10px;
     border: none;
 }
+.cart button:nth-child(2) a{
+    text-decoration: none;
+    color: #fff;
+}
 .cart button:nth-child(3){
      padding: 10px ;
      border: 1px solid rgba(128, 128, 128, 0.235);
@@ -130,8 +134,7 @@
 .floating-description{
     width: 100%;
    position: absolute;
-   top: 124%;
-   
+   top: 128%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -175,6 +178,10 @@
     color: white;
     padding: 10px 20px ;
     margin-right: 100px;
+}
+.floating-description button a{
+    text-decoration: none;
+    color: #fff;
 }
 .descriptions{
     margin-top: 50px;
@@ -274,11 +281,15 @@
     color: gray;
 }
 .related-products{
+   
     text-align: center;
     margin-bottom: 100px;
 }
 .related-products-items{
+ /* background-color: red; */
+ border: none;
     display: flex;
+  flex-direction: row;
     width: 86%;
     margin-left: auto;
     margin-right: auto;

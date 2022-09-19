@@ -5,6 +5,7 @@ import { SliderData } from './SliderData';
 //import slider1 from '../SliderImages/slider1.jpg'
 
 import '../styles/Home.css'
+import { Link } from 'react-router-dom';
 const Home = () => {
 
 
@@ -49,7 +50,7 @@ let intervalTime = 5000;
                           <h2>{slider.heading}</h2>
                           <p>{slider.desc}</p>
                           <hr/>
-                          <button>Get Started</button>
+                          <button><Link to='/page'>Get Started</Link></button>
                           
                      </div>
                   </>

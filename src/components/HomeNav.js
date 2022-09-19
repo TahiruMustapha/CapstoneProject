@@ -3,12 +3,16 @@ import { FaRegHeart } from "react-icons/fa";
 import { FaCartPlus } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
+import { AllDepartment } from './AllDepartment';
+//import DropDown from './DropDown';
 import '../styles/HomeNav.css'
-// import redstar from '../images/redstar.png'
  import logo from '../images/logo.png'
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 const HomeNav = () => {
+   const [dropDown,setDropDown] = useState(false);
+
   return (
     <div className = "Main-Nav">
          <div className='first-Nav'>
@@ -33,29 +37,30 @@ const HomeNav = () => {
             </div>
          </div>
          <div className='third-nav'>
+            
                <ul>
-                <select>
-                    
-                    <option className='option-header'>All Department</option>
-                    <option><li>Home Audio & Theater</li></option>
-                    <option><li>Home Audio & Theater</li></option>
-                    <option><li>Home Audio & Theater</li></option>
-                    <option><li>Home Audio & Theater</li></option>
-                    <option><li>Home Audio & Theater</li></option>
-                    <option><li>Home Audio & Theater</li></option>
-                    <option><li>Home Audio & Theater</li></option>
-                    <option><li>Home Audio & Theater</li></option>
-                    <option><li>Home Audio & Theater</li></option>
-                    <option><li>Home Audio & Theater</li></option>
-                    
-                </select>
+               <select>
+                 <option>All Department</option>
+                 <option><Link to='page'>Hair</Link></option>
+                  <option>Make Up</option>
+                  <option>Beauty</option>
+                  <option>Skin</option>
+                  <option>Brushes</option>
+                  
+                
+               </select>
+                  
+               
                 <li><Link to='/'>HOME+</Link></li>
                 <li><Link to='shop'>SHOP+</Link></li>
                 <li><Link to='page'>PAGE+</Link></li>
                 <li><Link to='blog'>BLOG+</Link></li>
                 <li><Link to='contact'>CONTACT+</Link></li>
+                
                </ul>
+              
          </div>
+         {/* {dropDown && <DropDown/> } */}
     </div>
   )
 }

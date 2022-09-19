@@ -21,6 +21,7 @@ import img22 from '../images/img22.jpeg'
 import img23 from '../images/img23.jpeg'
 //import { FaGreaterThan } from "react-icons/fa";
 //import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 import img19 from '../images/img19.png'
 const SingleProductPage = () => {
   return (
@@ -66,7 +67,7 @@ const SingleProductPage = () => {
              you should try it</p>
              <div className='cart'>
               <button>- 1 +</button>
-              <button>ADD TO CART</button>
+              <button><Link to='/cart'>ADD TO CART</Link></button>
               <button><FaRegHeart/></button>
               <button><FaReply/></button>
            
@@ -116,7 +117,7 @@ const SingleProductPage = () => {
           </div>
         </div>
         <div>
-          <button>Add To Cart</button>
+          <button><Link to='/cart'>Add To Cart</Link></button>
         </div>
        </div>
        {/* <hr className='last-hr'/> */}

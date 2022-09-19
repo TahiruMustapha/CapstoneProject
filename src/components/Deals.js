@@ -125,7 +125,7 @@ const Deals = () => {
          </div>
          <div className="deals-background">
             <div >
-            <h3>Herbs and Species</h3>
+            <h3>Make Beauty and Skin A Priority</h3>
               <p>Fresh , Flovourful & Aromatic</p>
             </div>
               

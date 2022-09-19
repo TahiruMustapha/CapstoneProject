@@ -30,8 +30,9 @@ function App() {
     <HomeNav/> 
    <Routes>
      <Route  path='/' exact element = { <Hero/> } />
+     <Route  path='/page' exact element = { <Page/> } />
    <Route  path='/shop' exact element = { <Shop/> } />
-     <Route  path='/page'  exact element = { <Page/> } />
+     <Route  path='page'  exact element = { <Page/> } />
     <Route  path='/blog' exact element = { <Blog/> } /> 
     <Route  path='/contact' exact element = { <Contact/> } />
     <Route  path='*' exact element = { <NotFound/> } />
