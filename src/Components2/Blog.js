@@ -172,64 +172,63 @@ const Blog = () => {
        </div>
       
         </div>
-        <div className='related-products-section'>
-          <h2>Related Products</h2>
-                <div className='product-content'>
-                  <div className ='related-products-item'>
-                       <img src='SliderImages/slider13.jpg' alt='perfume'/>
-                       <p>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/><br/>
-                        <span className='price-product'>Products</span><br/>
-                        <span className='price-incredible'>Incredible Cosmetic Products</span><br/> <br/>
-                        <span className='price'>GHS34.4</span>
-                       </p>
-                  </div>
-                  <div className='related-products-items'>
-                  <img src='SliderImages/slider14.png' alt='perfume'/>
-                  <p>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/><br/>
-                        <span className='price-product'>Products</span><br/>
-                        <span className='price-incredible'>Incredible Cosmetic Products</span><br/> <br/>
-                        <span className='price'>GHS34.4</span>
-                        
-                       </p>
-                  </div>
-                  <div className='related-products-items'>
-                  <img src='SliderImages/slider17.jpg' alt='perfume'/>
-                  <p>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/><br/>
-                        <span className='price-product'>Products</span><br/>
-                        <span className='price-incredible'>Incredible Cosmetic Products</span><br/> <br/>
-                        <span className='price'>GHS34.4</span>
-                       </p>
-                  </div>
-                  <div className='related-products-items'>
-                  <img src='SliderImages/slider16.jpg' alt='perfume'/>
-                  <p>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
-                        <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/> <br/>
-                        <span className='price-product'>Products</span><br/>
-                        <span className='price-incredible'>Incredible Cosmetic Products</span><br/> <br/>
-                        <span className='price'>GHS34.4</span>
-                       </p>
-                       
-                  </div>
-                </div>
+        <div className='related-products'>
+            <h2>Related Products</h2>
+
+            <div className='related-products-items' >
+              <div>
+                <img src='/SliderImages/slider13.jpg' alt = "pefume" />
+                <p>
+                <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+                </p>
+                <p>Product Name</p>
+                <h5>Check This Out</h5>
+                <p>GHS20</p>
+              </div>
+              <div>
+              <img src='/SliderImages/slider16.jpg' alt = "pefume" />
+                <p>
+                <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+                </p>
+                <p>Product Name</p>
+                <h5>Check This Out</h5>
+                <p>GHS20</p>
+              </div>
+              <div>
+              <img src='/SliderImages/slider19.jpg' alt = "pefume" />
+                <p>
+                <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+                </p>
+                <p>Product Name</p>
+                <h5>Check This Out</h5>
+                <p>GHS20</p>
+              </div>
+              <div>
+              <img src='/SliderImages/slider11.jpg'  alt = "pefume"/>
+                <p>
+                <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+            <FaStar style={{color: 'green', fontSize: '20px',marginRight:"6px"}}/>
+                </p>
+                <p>Product Name</p>
+                <h5>Check This Out</h5>
+                <p>GHS20</p>
+              </div>
+            </div>
        </div>
          
       <Footer/>
