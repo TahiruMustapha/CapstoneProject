@@ -31,8 +31,10 @@ import { FaFacebook } from "react-icons/fa";
 import Footer from '../components/Footer';
 import { BlogData } from '../components/BlogData';
 import { Link } from 'react-router-dom';
+//import Nav from '../components/Nav';
 const Blog = () => {
   return (
+    
     <div className='mainblog'>
         <div className='blog'>
         <nav>
@@ -149,7 +151,7 @@ const Blog = () => {
                     <p>+More Products</p>
                    </div>
           </div>
-          <div className='floating-description'>
+          {/* <div className='floating-description'>
         <div className='floating-description-item1'>
        
         <div className='product-img'>
@@ -169,7 +171,7 @@ const Blog = () => {
         <div>
           <button> <Link to='/cart'>Add To Cart</Link></button>
         </div>
-       </div>
+       </div> */}
       
         </div>
         <div className='related-products'>

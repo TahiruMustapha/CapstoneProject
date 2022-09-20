@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
   return (
     <div className = "Main-Nav">
-         <div className='first-Nav'>
+         <div className='first-Nav-item'>
              <p>Free Delivery Over $100 All Products</p>
           <div>
           <FaUser style={{color: 'white', fontSize: '15px'}}/> <Link to='sign-in' style={{color:'#fff'}}>SIGN IN</Link></div>  

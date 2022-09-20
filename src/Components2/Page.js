@@ -27,7 +27,7 @@ import Footer from '../components/Footer';
 const Page = () => {
   return (
     <div>
-       
+     
     <div className='mainblog'>
         <div className='blog'>
         <nav>

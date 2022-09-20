@@ -28,7 +28,7 @@ const SingleProductPage = () => {
   
     <div className="single-product-page">
        <div className='nav'>
-      <p>Home Page|Foods Heavy duty product</p>
+      <p>Home Page| Shop</p>
        </div>
        <div className='product'>
         <div className='product-img'>
@@ -99,7 +99,7 @@ const SingleProductPage = () => {
            
         </div>
        </div>
-       <div className='floating-description'>
+       {/* <div className='floating-description'>
         <div className='floating-description-item1'>
        
         <div className='product-img'>
@@ -119,7 +119,7 @@ const SingleProductPage = () => {
         <div>
           <button><Link to='/cart'>Add To Cart</Link></button>
         </div>
-       </div>
+       </div> */}
        {/* <hr className='last-hr'/> */}
        <div className='descriptions'>
          <div className='description-nav'>

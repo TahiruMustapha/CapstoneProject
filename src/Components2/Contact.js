@@ -7,9 +7,15 @@ import { FaVoicemail } from 'react-icons/fa';
 import { FaClock } from 'react-icons/fa';
 import Footer from '../components/Footer';
  import map from '../images/map.png'
+//import Nav from '../components/Nav';
 const Contact = () => {
   return (
     <div className='contact'>
+       <div className='contact-nav'>
+        <nav>
+               <p>Home Page | Contact</p>
+           </nav>
+        </div>
       <div className='main-contact'>
     
       

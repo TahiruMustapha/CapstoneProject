@@ -7,10 +7,11 @@ import Deals from './Deals';
 import Selling from './Selling';
 import LatestNews from './LatestNews';
 import HomeFooter from './HomeFooter';
+import HomeNav from './HomeNav';
 const Hero = () => {
   return (
     <div>
-    
+ 
       <Home/>
       <Categories/> 
         <Trending/>

@@ -1,3 +1,12 @@
+.contact-nav nav{
+    background-color: rgba(128, 128, 128, 0.219);
+    font-size: 1.2rem;
+    padding: 3px 10px;
+    width: 100%;
+}
+.contact-nav nav p{
+    margin-left: 30px;
+}
 .main-contact{
     margin-bottom: 50px;
     /* background-image: url(../images/map.png);

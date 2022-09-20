@@ -1,3 +1,6 @@
+.main-latestNews{
+  position: relative;
+}
 .latestNews{
   padding-bottom: 100px;
 }
@@ -70,7 +73,7 @@
  }
  .newsLetter{
   position: absolute;
-  top: 635%;
+  top: 92%;
   left: 18%;
    width: 60%;
    height: 80px;

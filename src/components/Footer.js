@@ -18,16 +18,17 @@ const Footer = () => {
     <div className='Main-footer'>
       <div className='footer'>
       <div className = "shopie">
-       <FaCartPlus style={{fontSize:"40px",color:"white"}} /> <span className='styled-shopie'><img src={logo} alt="logo" /></span>
+      <p>
+      <FaCartPlus style={{fontSize:"40px",color:"white"}} /> <span className='styled-shopie'><img src={logo} alt="logo" /></span>
+      </p>
        <p>All in one WooCommerce Theme is a specific, <br/>
         clean, minimal and ultimate theme.</p> 
-        <FaPhone style={{fontSize:"20px",color:"red"}}/> <span className='numbers'>(1800) 88-66-991</span>
+      <p><FaPhone style={{fontSize:"20px",color:"red"}}/> <span className='numbers'>(1800) 88-66-991</span></p>  
         <p>947 Clear Point, Western Sahara, Los Angelis <br/> info@example.com</p>
       </div>
       <div className = "products">
-         
+      <h2>PRODUCTS</h2>
          <ul>
-         <h2>PRODUCTS</h2>
             <a href='cameras'>Cameras</a> <br/>
             <a href='cameras'>Video Cameras</a> <br/>
             <a href='cameras'>Lenses</a> <br/>
@@ -35,9 +36,8 @@ const Footer = () => {
          </ul>
       </div>
       <div className = "services">
-      
+      <h2>SERVICES</h2>
          <ul>
-         <h2>SERVICES</h2>
             <li><a href='cameras'>Apps</a></li>
             <li><a href='cameras'>Services</a></li>
             <li><a href='cameras'>Photo Books</a></li>
@@ -45,23 +45,21 @@ const Footer = () => {
          </ul>
       </div>
       <div className = "accept-payment">
-        <h2>ACCEPT PAYMENTS</h2>
-        <div className='payment-images'>
+        <h2>PAYMENTS</h2>
+        <p className='payment-images'>
         <FaCreditCard style={{marginRight:"10px", color:"red" ,fontSize:"25px"}}/>
         <FaCreditCard style={{marginRight:"10px", color:"orange" ,fontSize:"25px"}}/>
         <FaCreditCard style={{marginRight:"10px", color:"blue" ,fontSize:"25px"}}/>
         <FaCreditCard style={{marginRight:"10px", color:"aqua" ,fontSize:"25px"}}/>
         <FaCreditCard style={{color:"red" ,fontSize:"25px"}}/>
-       
-        </div>
+        </p>
         <h2>FOLLOW US</h2>
-        <div className='payment-social-links'>
+        <p className='payment-social-links'>
         <FaFacebook style={{marginRight:"10px", color:"red" ,fontSize:"25px"}}/> 
         <FaTwitter style={{marginRight:"10px", color:"red" ,fontSize:"25px"}}/>
         <FaYoutube style={{marginRight:"10px", color:"red" ,fontSize:"25px"}}/>
         <FaInstagram style={{marginRight:"10px", color:"red" ,fontSize:"25px"}}/>   
-        
-        </div>
+        </p>
 
       </div>
       </div>

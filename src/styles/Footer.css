@@ -1,12 +1,19 @@
 .Main-footer{
-    background-color: rgb(0, 0, 0);
+    background-color: #090b32;
     
 }
 .footer{
-   
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 20px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* display: flex;
+   align-items: center;
+   justify-content: center; */
+   /* height: 300px; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* padding: 20px; */
     
 }
 .styled-shopie img{
@@ -15,18 +22,36 @@
     
 }
 .shopie{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
     margin-left: 50px;
 }
 .shopie p{
     color: #fff;
 }
 .numbers{
+    
     color: #fff;
 }
-
+.products{
+    /* background-color: rebeccapurple; */
+    width: 300px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    /* justify-content: center; */
+  
+}
+.products ul{
+    text-align: right;
+    margin-top: -10px;
+}
 .products h2{
-    color: #fff;  
+    color: #fff; 
+    margin-left: 23px; 
 }
  .products ul a{
     color: #fff;
@@ -34,7 +59,14 @@
     line-height: 25px;
  }
  
+ .services{
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    width: 150px;
+    margin-right: 70px;
  
+ }
  .services h2{
    color: #fff;
  }
@@ -42,6 +74,11 @@
     color: #fff;
     text-decoration: none;
     line-height: 25px;
+ }
+ .accept-payment{
+    /* background-color: rebeccapurple; */
+   margin-right: 70px;
+   width: 300px;
  }
  .accept-payment h2{
     color: #fff;

@@ -81,13 +81,16 @@
     justify-content: center;
     align-items: center;
 }
-.third-nav ul{
+.third-nav-item{
+    background-color: rgb(0, 0, 0);
+}
+.third-nav-item ul{
   display: flex;
   justify-content: flex-start;
   align-items: center;
 
 }
-.third-nav ul select{
+.third-nav-item ul select{
     padding: 10px;
     padding-right: 20px;
     width: 280px;
@@ -95,31 +98,32 @@
     border: none;
 
 }
-.third-nav ul select:focus{
+.third-nav-item ul select:focus{
     background-color: #F94892;
 }
-.third-nav ul select option{
+.third-nav-item ul select option{
     background-color: #fff;
     color: #000;
     font-size: 1rem;
     font-weight: 550;
     margin-top: 6px;
 }
-.third-nav ul select option:hover{
+.third-nav-item ul select option:hover{
     background:none;
 }
-.third-nav ul select option li{
+.third-nav-item ul select option li{
     list-style: square;
 }
-.third-nav ul li{
+.third-nav-item ul li{
     margin-left: 30px;
     list-style: none;
+    color: #fff;
 }
-.third-nav ul li a{
+.third-nav-item ul li a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-weight: 750;
 }
-.third-nav ul li a:hover{
+.third-nav-item ul li a:hover{
     color: #F94892;
 }
